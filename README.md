@@ -1,10 +1,13 @@
 # Intercom Import for Gmail™
 Import your Gmail™ messages to Intercom
 
+[![Intercom Import for Gmail™](http://cdn.magloft.com/labs/intercom-gmail-import/marquee.png)](https://chrome.google.com/webstore/detail/intercom-import-for-gmail/ckmapackjkkpnibiajegpmllhfoeombn)
+
 ## Installation
 
 You can install this Extension directly from the Chrome Web-Store:
-https://chrome.google.com/webstore/detail/intercom-import-for-gmail/ckmapackjkkpnibiajegpmllhfoeombn
+
+[![Install Intercom Import for Gmail™](http://cdn.magloft.com/labs/intercom-gmail-import/install-button.png?v2)](https://chrome.google.com/webstore/detail/intercom-import-for-gmail/ckmapackjkkpnibiajegpmllhfoeombn)
 
 ## Description
 
@@ -17,6 +20,10 @@ Additionally, you will have a chance to clean up the message to remove any unwan
 Overall, the aim is to allow you to get all your customer's conversations into intercom, as we have personally experienced it as a huge pain if some of your conversations are managed elsewhere - and therefore - not managed at all.
 
 I hope you gain some value from this extension, and if you like it - or more importantly, if you don't like it, please leave a short review or feature request in the Chrome Store.
+
+Gmail Message View  |  Intercom Importer Confirmation Screen
+:------------------:|:-------------------------------------:
+![Intercom Import for Gmail™ - Screenshot 01](http://cdn.magloft.com/labs/intercom-gmail-import/screenshot-01.png)  |  ![Intercom Import for Gmail™ - Screenshot 02](http://cdn.magloft.com/labs/intercom-gmail-import/screenshot-02.png)
 
 ## Development
 
