@@ -1,0 +1,48 @@
+{
+  "manifest_version": 2,
+  "name": "Intercom Import for Gmail™",
+  "short_name": "Gmail2Intercom",
+  "version": "%%GULP_INJECT_VERSION%%",
+  "description": "Import your Gmail™ messages to Intercom",
+  "icons": {
+    "16": "images/icon-16.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "images/icon-16.png",
+      "24": "images/icon-24.png",
+      "32": "images/icon-32.png"
+    },
+    "default_title": "Intercom Import",
+    "default_popup": "options.html"
+  },
+  "author": "Tobias Strebitzer",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [{
+    "matches": ["https://mail.google.com/*"],
+    "js": ["content.js"],
+    "css": ["content.css"],
+    "run_at": "document_end"
+  }],
+  "homepage_url": "https://github.com/magloft/intercom-gmail-import",
+  "permissions": [
+    "storage",
+    "https://mail.google.com/",
+    "https://api.intercom.io/"
+  ],
+  "externally_connectable": {
+    "matches": ["https://mail.google.com/*"]
+  },
+  "web_accessible_resources": [
+    "images/*.png",
+    "images/*.svg"
+  ],
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  }
+}

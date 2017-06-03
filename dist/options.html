@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Intercom Import Options</title>
+    <style>
+      body { padding: 0px; margin: 0; min-width: 320px; }
+      div.section { padding: 12px 12px 18px; }
+      div.section header { font-weight: bold; display: block; margin: 12px 0px 8px; }
+      div.section input[type=password] { width: 100%; padding: 4px 6px 3px; }
+      footer { background: #F5F5F5; border-top: 1px solid #EEEEEE; padding: 8px 12px; margin-top: 8px;}
+      div#status { float: right; line-height: 24px; color: #999; }
+      a.link-btn { background-image: -webkit-linear-gradient(#ededed, #ededed 38%, #dedede); border: 1px solid rgba(0, 0, 0, 0.25); border-radius: 2px; box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08), inset 0 1px 2px rgba(255, 255, 255, 0.75); color: #444; font: inherit; margin: 0 1px 0 0; outline: none; text-shadow: 0 1px 0 rgb(240, 240, 240); user-select: none; display: inline-block; text-decoration: none; padding: 6px 12px 4px; margin-top: 8px; font-size: 12px; }
+    </style>
+  </head>
+  <body>
+    <div class="section">
+      <header>Intercom Access Key:</header>
+      <input type="password" id="key" placeholder="AU6O3pEoRV9dwZj966GjinoDxjXfhABO=" />
+      <a class="link-btn" href="https://app.intercom.com/developers/_" target="_blank">View Intercom Access Token</a>
+    </div>
+    <footer>
+      <button id="save">Save</button>
+      <div id="status"></div>
+    </footer>
+    <script src="options.js"></script>
+  </body>
+</html>
