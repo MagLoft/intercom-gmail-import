@@ -2,7 +2,7 @@
   "name": "intercom-gmail-import",
   "author": "Tobias Strebitzer",
   "description": "Import your Gmail™ messages to Intercom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "readme": "README.md",
   "repository": "git@github.com:magloft/intercom-gmail-import.git",
   "license": "MIT",
