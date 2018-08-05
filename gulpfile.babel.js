@@ -50,7 +50,7 @@ gulp.task("lint", () => gulp.src("./src/**/*.js")
     .pipe(eslint.format())
     .pipe(eslint.failAfterError()))
 
-gulp.task("zip", ["dist"], () => gulp.src("./dist/**/*")
+gulp.task("zip", ["dist"], () => gulp.src(["./dist/**/*", "./certs/key.pem"])
     .pipe(zip("intercom-gmail-import.zip"))
     .pipe(gulp.dest("./")))
 
